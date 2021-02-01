@@ -4,16 +4,16 @@ $(document).ready(function (){
 
     function workDay() {
      
-        var currentHour = moment().hours();
+        var currentTime = moment().hours();
        
         $(".time-block").each(function () {
             var blockOut = parseInt($(this).attr("id"));
 
-            if (currentHour === blockOut) {
+            if (currentTime === blockOut) {
              
                 $(this).addClass("present");
             }
-            else if (currentHour > blockOut) {
+            else if (currentTime > blockOut) {
              
                 $(this).removeClass("present");
                 $(this).addClass("past");
@@ -34,7 +34,7 @@ workDay();
        
         var time = $(this).parent().attr("id");
      
-        var value = $(this).siblings(".schedule").val()
+        var value = $(this).siblings(".scheduler").val()
         localStorage.setItem(time, value)
     })
 
