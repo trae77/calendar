@@ -10,4 +10,3 @@ I learned how to use the local storage
 Deployed site
 https://trae77.github.io/calendar/
 
-<img src="./" 
