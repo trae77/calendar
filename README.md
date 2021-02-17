@@ -11,6 +11,6 @@ Deployed site
 https://trae77.github.io/calendar/
 
 
-<img src ="./homework\calendar\Screenshot (3).png" >
+<img src="./password.png" >
 
 
